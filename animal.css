@@ -1,0 +1,80 @@
+/*Hunt Pages*/
+.largeContainer{
+    position: absolute;
+    top: 250px;
+    width: calc(100%-0px);
+    max-width: 1920px;
+}
+.section{
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.smallSection{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.sideContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(50% - 40px);
+    height: calc(600px);
+    float: left;
+    padding: 0 20px;
+}
+.largeContainer h1{
+    text-align: center;
+    font-size: 72px;
+    color: #a29f76;
+    font-family: serif;
+    text-decoration: underline #a29f76;
+    text-shadow: #000 5px 5px 10px;
+}
+.largeContainer p, .largeContainer li{
+    font-size: 24px;
+    color: #d1cea3;
+    text-shadow: #000 5px 5px 10px;
+}
+.largeContainer .section h3{
+    font-size: 32px;
+    color: #d1cea3;
+    text-shadow: #000 5px 5px 10px;
+    text-align: center;
+}
+.largeContainer img{
+    float: left;
+    border: #5c3011 solid 3px;
+    box-shadow: #000 5px 5px 10px;
+    margin-top: 0px;
+    margin-right: 0;
+    width: calc(50% - 20px);
+    height: calc(600px);
+}
+.largeContainer ul{
+    padding-left: 20px;
+    line-height: 30px;
+    list-style: none;
+}
+.largeContainer li{
+    margin-bottom: 10px;
+}
+.largeContainer li .sub{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.largeContainer h4{
+    font-size: 24px;
+    color: #d1cea3;
+    text-shadow: #000 5px 5px 10px;
+    text-align: center;
+}
+.largeContainer h4 a{
+    color: #d1cea3;
+    transition: 0.5s;
+}
+.largeContainer h4 a:hover{
+    color: #aaa77f;
+    text-shadow: #000 3px 3px 5px;
+}

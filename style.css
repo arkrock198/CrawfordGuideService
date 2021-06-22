@@ -1,0 +1,135 @@
+/*Universal Webstite Style*/
+body{
+    background-color: #d1cea3;
+    background-image: url(Images/planks.png);
+    background-attachment: fixed;
+    background-size: 1080px;
+}
+strong{
+    font-size: 1.09em;
+}
+#jumbotron{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-image: url(Images/20191222_151004.jpg);
+    background-size: 100% 30%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo{
+/*    position: absolute;*/
+    top: 0px;
+    height: 200px;
+}
+#jumbotron h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    font-family: serif;
+    color: #2311ac;
+/*    margin-top: 30px;*/
+    -webkit-text-stroke: #5c3011 1px;
+}
+#jumbotron span{
+    font-size: 32px;
+    color: #a29f76;
+}
+#navbar{
+    position: absolute;
+    top: 200px;
+    left: -1px;
+    top: 200px;
+    width: calc(100%);
+    height: 50px;
+    background-color: #a29f76;
+/*    background-image: url(Images/trunk.jpg);*/
+    /*https://www.pexels.com/photo/wood-dirty-construction-dry-4105375/*/
+    background-size: 100% auto;
+    background-attachment: fixed;
+    padding-bottom: 15px;
+    border-top: #5c3011 solid 3px;
+    border-bottom: #5c3011 solid 3px;
+}
+#navbar a{
+    color: white;
+    text-shadow: black 2px 2px 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2em;
+    width: calc(100%/4);
+    height: 40px;
+    float: left;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-text-stroke: black 1px;
+    z-index: 1;
+}
+#navbar a:hover::after{
+    content: "";
+    height: 150px;
+    width: 150px;
+    background-image: url(Images/Crosshairs.png);
+    /*https://en.m.wikipedia.org/wiki/File:Crosshairs_Red.svg*/
+    transform: rotate(-20deg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -40px;
+    margin-left: calc(-7%);
+    z-index: 100;
+}
+#navbar a:active::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-image: url(Images/bulletHole.png);
+    /*https://www.pinterest.com/pin/629729960373945676/*/
+    transform: rotate(-20deg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10px;
+    margin-left: calc(-4.5%);
+}
+#navbar li{
+    list-style: none;
+}
+/*Home Page*/
+.container{
+/*    position: absolute;*/
+    margin-top: 300px;
+    width: 1080px;
+    margin-left: calc(50% - 540px);
+}
+.container img{
+    border: #5c3011 solid 3px;
+    float: left;
+    box-shadow: #000 5px 5px 10px;
+    margin-top: 20px;
+}
+.container p{
+    float: left;
+    font-size: 24px;
+    color: #d1cea3;
+    text-shadow: #000 5px 5px 10px;
+    width: calc(674px - 4%);
+    margin: 0 2%;
+}
+/*Videos*/
+video{
+    float: left;
+    width: calc(60%);
+    margin-top: 30px;
+    padding-top: 0;
+    height: 700px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    border: #5c3011 solid 3px;
+    box-shadow: #000 5px 5px 10px;
+}
+video.main{
+    
+}

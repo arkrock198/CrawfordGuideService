@@ -1,0 +1,69 @@
+/*Cards*/
+.cards{
+    position: absolute;
+    top: 300px;
+    width: 80%;
+    left: 10%;
+}
+.cardContainer{
+    width: calc(33% - 21px);
+    height: 500px;
+    float: left;
+    margin: 10px;
+}
+.card{
+    position: absolute;
+    width: calc(33% - 26px);
+    height: 500px;
+    background-color: tan;
+    border: #5c3011 solid  3px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(92, 48, 17, 0);
+    transition: 0.25s;
+}
+.card:hover .cover{
+    background-color: rgba(92, 48, 17, 0.6);
+}
+.card:hover h1{
+    top: 175px;
+}
+.card:hover .button{
+    bottom: 25px;
+    color: rgb(209, 206, 163, 1);
+}
+.card h1{
+    position: absolute;
+    width: 100%;
+    top: 275px;
+    font-size: 82px;
+    color: #d1cea3;
+    text-shadow: #000 2px 2px 10px;
+    transition: 0.25s;
+}
+.button{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    bottom: 0;
+    left: calc(50% - 100px);
+    color: rgb(209, 206, 163, 0);
+    font-family: sans-serif;
+    border: solid 2px;
+    background-color: rgb(209, 206, 163, 0);
+    transition: 0.5s;
+    cursor: pointer;
+    padding-top: 15px;
+    transition: 0.25s;
+}
+.button:hover{
+    background-color: rgb(209, 206, 163, 1);
+}

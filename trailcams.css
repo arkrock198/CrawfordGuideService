@@ -1,0 +1,21 @@
+/*Trailcameras*/
+.largeContainer{
+    position: absolute;
+    top: 250px;
+    width: calc(100%-0px);
+}
+.largeContainer h1{
+    text-align: center;
+    font-size: 72px;
+    color: #a29f76;
+    font-family: serif;
+    text-decoration: underline #a29f76;
+    text-shadow: #000 5px 5px 10px;
+}
+.largeContainer img{
+    width: calc(33% - 26px);
+    border: #5c3011 solid 3px;
+    box-shadow: #000 5px 5px 10px;
+    height: 300px;
+    margin: 10px;
+}
